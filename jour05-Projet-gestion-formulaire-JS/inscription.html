@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER PAGE</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.3.2/purify.min.js"></script>
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Jour 05 - Projet</h1>
+        <a href="connexion.html">Login</a>
+        <a href="inscription.html">Register</a>
+    </header>
+    <main>
+        <form name="formRegister" action="" method="post">
+
+            <h1>Inscription</h1>
+        
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" autocomplete="none" required>
+
+                <label for="prenom">Prenom:</label>
+                <input type="text" id="prenom" name="prenom" autocomplete="none" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="adresse">Adresse:</label>
+                <input type="text" id="adresse" name="adresse" required>
+
+                <label for="adresse">Code postal:</label>
+                <input type="text" id="codePostal" name="codePostal" required>
+        
+                <label for="motDePasse1">Mot de passe:</label>
+                <input type="password" id="motDePasse1" name="motDePasse1" required>
+        
+                <label for="motDePasse2">Confirmation du mot de passe:</label>
+                <input type="password" id="motDePasse2" name="motDePasse2" required>
+                
+        
+                <input type="submit" name="submit" value="S'inscrire">
+        
+            </form>
+
+    </main>
+    <footer>
+        Runtrack JS - B1 WEB 2024 - Jour 05 - Projet
+    </footer>
+    
+</body>
+</html>

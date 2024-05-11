@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./output.css" rel="stylesheet">
+    <title>INDEX</title>
+</head>
+<body>
+    <header class="h-32 px-24 flex items-center justify-between bg-gray-light" >
+        <h1 class="text-3xl font-bold">Jour 08 - Tailwind</h1>
+        <nav class="flex items-center justify-between w-96 mx-24">
+            <a class="text-white hover:text-black active:text-slate-400 visited:text-slate-200" href="index.html">Accueil</a>
+            <a class="text-white hover:text-black active:text-slate-400 visited:text-slate-200" href="index.html">Inscription</a>
+            <a class="text-white hover:text-black active:text-slate-400 visited:text-slate-200" href="index.html">Connexion</a>
+            <a class="text-white hover:text-black active:text-slate-400 visited:text-slate-200" href="index.html">Rechercher</a>
+        </nav>
+     
+    </header>
+    <main>
+
+        <form name="formRegister" action="" method="post">
+
+            <h2 class="text-2xl font-bold ">Création de compte</h2>
+            <fieldset class="bg-[#bada55] ">
+                <legend class="text-xl font-bold">Civilités:</legend>
+                <div>
+                    <input type="radio" id="madame" name="civilite" value="madame" checked />
+                    <label for="madame">Mme.</label>
+                </div>
+                <div>
+                    <input type="radio" id="mademoiselle" name="civilite" value="mademoiselle" />
+                    <label for="mademoiselle">Melle.</label>
+                </div>
+                <div>
+                    <input type="radio" id="monsieur" name="civilite" value="monsieur"/>
+                    <label for="monsieur">M.</label>
+                </div>
+                <div>
+                    <input type="radio" id="no" name="civilite" value="no"/>
+                    <label for="no">Je ne souhaites pas répondre</label>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend class="text-xl font-bold">Informations:</legend>
+                <div>
+                    <label for="prenom">Prenom:</label>
+                    <input type="text" id="prenom" name="prenom" required>
+                </div>
+                <div>
+                    <label for="nom">Nom:</label>
+                    <input type="text" id="nom" name="nom" required>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                    <label for="adresse">Adresse:</label>
+                    <input type="text" id="adresse" name="adresse" required>
+                </div>
+                <div>
+                    <label for="motDePasse1">Mot de passe:</label>
+                    <input type="password" id="motDePasse1" name="motDePasse1" required>
+                </div>
+                <div>
+                    <label for="motDePasse2">Confirmation du mot de passe:</label>
+                    <input type="password" id="motDePasse2" name="motDePasse2" required>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend class="text-xl font-bold">Vos passions:</legend>
+              
+                <div>
+                  <input type="checkbox" id="informatique" name="informatique" checked />
+                  <label for="informatique">Informatique</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="voyages" name="voyages" />
+                  <label for="voyages">Voyages</label>
+                </div>
+                  <div>
+                  <input type="checkbox" id="sport" name="sport" />
+                  <label for="sport">Sport</label>
+                </div>
+                <div>
+                  <input type="checkbox" id="lecture" name="lecture" />
+                  <label for="lecture">Lecture</label>
+                </div>
+              </fieldset>
+
+                <input type="submit" name="submit" value="Créer le compte">
+        
+            </form>
+
+    </main>
+    <footer>
+        Runtrack JS - B1 WEB 2024 - Jour 08 - Tailwind
+    </footer>
+    
+</body>
+</html>

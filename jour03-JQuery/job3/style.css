@@ -1,0 +1,41 @@
+/* :root {} */
+#taquin {
+  display: flex;
+  flex-wrap: wrap;
+  height: 295px;
+  width: 316px;
+  }
+  
+  .tuile {
+    width: 100px;
+    height: 98.5px;
+    cursor: pointer;
+  }
+
+  .tuile img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  
+  .vide {
+    background-color: white;
+    cursor: default;
+  }
+
+  body {
+    background-color: rgb(145, 145, 145);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 11rem;
+    gap: 4rem;
+}
+
+.reference {
+  margin-left: 0px;
+}
+
+.reference img {
+  width: 298px;
+}

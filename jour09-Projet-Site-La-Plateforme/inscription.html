@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER PAGE</title>
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="./js/script.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dompurify/2.3.2/purify.min.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <h1>Jour 09/10 - Site La Plateforme_</h1>
+        <nav>
+            <a href="index.html">Connexion</a>
+            <a href="inscription.html">S'enregistrer</a>
+        </nav>
+        
+    </header>
+    <main class="centered-container">
+        <form id="formRegister" name="formRegister" action="" method="post">
+
+            <h1>Inscription</h1>
+        
+                <label for="nom">Nom:</label>
+                <input type="text" id="nom" name="nom" autocomplete="none" required>
+
+                <label for="prenom">Prenom:</label>
+                <input type="text" id="prenom" name="prenom" autocomplete="none" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="motDePasse1">Mot de passe : <br> (min.  : 8 caractères, 1 majuscule, 1 minuscule, 1 caractère spécial, 1 nombre)</label>
+                <input type="password" id="motDePasse1" name="motDePasse1" required>
+        
+                <label for="motDePasse2">Confirmation du mot de passe:</label>
+                <input type="password" id="motDePasse2" name="motDePasse2" required>
+                
+        
+                <button id="connectBtn" name="connectBtn" value="Se connecter">S'inscrire</button> 
+        
+            </form>
+
+    </main>
+    <footer>
+        Runtrack JS - B1 WEB 2024 - Jour 09/10 - Site La Plateforme_
+    </footer>
+    
+</body>
+</html>

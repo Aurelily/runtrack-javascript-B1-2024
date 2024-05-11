@@ -1,0 +1,95 @@
+/*MINIMAL CSS                     
+------------------------------- */
+* {
+    font-family: "Roboto", sans-serif;
+  }
+  
+  html {
+    box-sizing: border-box;
+    font-size: 16px;
+  }
+  
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+  
+  body,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6,
+  p,
+  ol,
+  ul {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+  }
+  
+  ol,
+  ul {
+    list-style: none;
+  }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  /*AUTRES                    
+  ------------------------------- */
+  header {
+    background-color: #000;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+  }
+  nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+  }
+  nav a {
+    margin: 20px;
+    color: white;
+  }
+  main {
+    min-height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  footer {
+    background-color: #0062FF;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+  form h1 {
+    margin-bottom: 20px;
+  }
+  input {
+    margin: 5px;
+  }
